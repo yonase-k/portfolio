@@ -1284,3 +1284,22 @@ section,
     transition: width 0.9s; /* Smooth transition for progress bars */
     background-color: var(--accent-color); /* Bar color */
 }
+/* Style the progress bars */
+.progress-bar-wrap {
+    background-color: #e9ecef; /* Light grey background for the progress bar container */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden;
+    height: 10px; /* Height of the progress bar */
+}
+
+.progress-bar {
+    height: 100%; /* Ensures the bar fills the container height */
+    background-color: #149ddd; /* Color of the progress bar */
+    transition: width 0.6s ease; /* Smooth animation for the width */
+    width: 0; /* Initially set to 0 */
+}
+
+/* Ensure the progress bar width is based on the value in aria-valuenow */
+.progress-bar[role="progressbar"] {
+    width: calc(attr(aria-valuenow) * 1%);
+}
