@@ -1273,3 +1273,14 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Align the Cybersecurity Enthusiast section to the left */
+.about .content {
+    text-align: left; /* Change text alignment to left */
+}
+/* Style the progress bars */
+.progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: width 0.9s; /* Smooth transition for progress bars */
+    background-color: var(--accent-color); /* Bar color */
+}
