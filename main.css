@@ -1324,3 +1324,14 @@ button[type=submit] {
 button[type=submit]:hover {
     background-color: #1f78b4; /* Darker blue on hover */
 }
+
+/* Align the Cybersecurity Enthusiast section to the left */
+.about .content {
+    text-align: left; /* Change text alignment to left */
+}
+/* Style the progress bars */
+.progress-bar {
+    height: 10px; /* Set height for the bar */
+    transition: width 0.9s; /* Smooth animation */
+    background-color: var(--accent-color); /* Bar color */
+}
