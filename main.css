@@ -1347,9 +1347,33 @@ button[type=submit]:hover {
 .about .content {
     text-align: left; /* Change text alignment to left */
 }
-/* Style the progress bars */
-.progress-bar {
-    height: 10px; /* Set height for the bar */
-    transition: width 0.9s; /* Smooth animation */
-    background-color: var(--accent-color); /* Bar color */
+/* Ensure progress bar wraps and bars have consistent styling */
+.skills .progress-bar-wrap {
+    background-color: #e9ecef; /* Light grey background for the bar */
+    border-radius: 5px;
+    height: 10px; /* Height of the bar */
+}
+
+.skills .progress-bar {
+    height: 100%; /* Make it fill the container height */
+    background-color: #149ddd; /* Bar color */
+    transition: width 0.9s ease; /* Smooth transition */
+    width: 0; /* Start at 0 to allow animation */
+}
+
+/* Dynamically set the width based on the aria-valuenow attribute */
+.skills .progress-bar[aria-valuenow="40"] {
+    width: 40%;
+}
+
+.skills .progress-bar[aria-valuenow="50"] {
+    width: 50%;
+}
+
+.skills .progress-bar[aria-valuenow="30"] {
+    width: 30%;
+}
+
+.skills .progress-bar[aria-valuenow="35"] {
+    width: 35%;
 }
