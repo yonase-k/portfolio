@@ -709,13 +709,31 @@ section,
 .skills .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   height: 10px;
+  border-radius: 5px; /* Add rounded corners to the progress bar */
 }
 
 .skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: var(--accent-color);
+  height: 100%;
+  transition: width 0.9s ease; /* Smooth transition */
+  background-color: var(--accent-color); /* Keep the accent color */
+  width: 0; /* Start with 0 to animate */
+}
+
+/* Dynamically set the width based on the percentage */
+.skills .progress-bar[aria-valuenow="40"] {
+  width: 40%; /* Python at 40% */
+}
+
+.skills .progress-bar[aria-valuenow="50"] {
+  width: 50%; /* Wireshark at 50% */
+}
+
+.skills .progress-bar[aria-valuenow="30"] {
+  width: 30%; /* Nmap at 30% */
+}
+
+.skills .progress-bar[aria-valuenow="35"] {
+  width: 35%; /* Network Security at 35% */
 }
 
 /*--------------------------------------------------------------
