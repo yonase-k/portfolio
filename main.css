@@ -1377,3 +1377,8 @@ button[type=submit]:hover {
 .skills .progress-bar[aria-valuenow="35"] {
     width: 35%;
 }
+.portfolio-item {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
