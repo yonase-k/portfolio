@@ -822,8 +822,9 @@ section,
 
 .portfolio .portfolio-content {
   position: relative;
-  overflow: hidden;
+  overflow: visible; /* or remove it completely */
 }
+
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
