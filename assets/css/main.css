@@ -1300,3 +1300,16 @@ section,
 .progress-bar[role="progressbar"] {
     width: calc(attr(aria-valuenow) * 1%);
 }
+
+3. **Keep the hover effect (Optional):**
+If you still want a visual effect when you hover over the portfolio items, you can keep the hover rule for other visual changes (like scaling the image), but the text will remain visible:
+
+```css
+.portfolio .portfolio-content:hover .portfolio-info {
+  opacity: 1; /* The text stays visible on hover */
+}
+
+.portfolio .portfolio-content:hover img {
+  transform: scale(1.1); /* Keep the image scaling effect on hover */
+}
+
