@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Network Traffic Analysis with Wireshark</title>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet"> <!-- Main CSS -->
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header dark-background">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Yonase Kidane</h1>
+    </a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header><!-- End Header -->
+
+  <!-- Main Section -->
+  <main id="main">
+    <section id="project-details" class="section">
+      <div class="container" data-aos="fade-up">
+        <!-- Section Title -->
+        <div class="section-title">
+          <h2>Network Traffic Analysis with Wireshark</h2>
+          <p>A project focusing on analyzing network traffic using Wireshark to understand and detect anomalies.</p>
+        </div>
+
+        <!-- Tools Used -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Tools Used</h3>
+            <ul>
+              <li>Wireshark</li>
+              <li>TCP/IP Protocols</li>
+              <li>Network Traffic Samples</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Project Overview</h3>
+            <p>This project involved using Wireshark to capture and analyze network traffic to detect anomalies, understand data flows, and troubleshoot network issues.</p>
+          </div>
+        </div>
+
+        <!-- Challenges and Solutions -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Challenges and Solutions</h3>
+            <p>A challenge was learning how to filter and interpret the traffic patterns. I focused on identifying common attack signatures and understanding protocol behaviors to detect anomalies in the network data.</p>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Results</h3>
+            <p>The project successfully demonstrated how to analyze network traffic using Wireshark, improving my ability to detect potential security threats and troubleshoot network issues effectively.</p>
+          </div>
+        </div>
+
+        <!-- Download Link for Project Files (Optional) -->
+        <div class="row">
+          <div class="col-lg-12">
+            <p><a href="assets/documents/wireshark-project.pdf" class="btn btn-primary" download>Download Full Project PDF</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main><!-- End Main Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      &copy; 2024 Yonase Kidane. All Rights Reserved.
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    // Initialize AOS for animations
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
